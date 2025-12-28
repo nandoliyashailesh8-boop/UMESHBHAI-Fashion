@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -198,7 +197,7 @@ function whatsappOrder(){
  c.forEach(i=>text+=`${i.n} - ₹${i.p}%0A`);
  text+=`Total: ₹${totalAmount}`;
  document.getElementById("whatsappBtn").href=
- `https://wa.me/91XXXXXXXXXX?text=${text}`;
+ `https://wa.me/+918487801647?text=${text}`;
 }
 
 function msg(t){document.getElementById("msg").innerText=t}
