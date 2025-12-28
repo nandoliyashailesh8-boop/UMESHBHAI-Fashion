@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Bhargav Fashion</title>
+<title>umesh Fashion</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -126,7 +126,7 @@ input{width:100%;padding:10px;margin:8px}
 <section id="order" class="hidden">
 <div class="order-box">
 <h2>✅ Order Placed Successfully</h2>
-<p>Thank you for shopping at <b>Bhargav Fashion</b></p>
+<p>Thank you for shopping at <b>umesh Fashion</b></p>
 <p>We received your payment.</p>
 
 <a id="whatsappBtn" class="gpay" style="background:green">
@@ -182,7 +182,7 @@ function loadCart(){
 }
 
 function payNow(){
- let upi=`upi://pay?pa=Shihorabhargav0@oksbi&pn=BhargavFashion&am=${totalAmount}&cu=INR`;
+ let upi=`upi://pay?pa=thakoru429@okicici&pn=BhargavFashion&am=${totalAmount}&cu=INR`;
  window.location.href=upi;
 
  setTimeout(()=>{
@@ -197,7 +197,7 @@ function whatsappOrder(){
  c.forEach(i=>text+=`${i.n} - ₹${i.p}%0A`);
  text+=`Total: ₹${totalAmount}`;
  document.getElementById("whatsappBtn").href=
- `https://wa.me/+918487801647?text=${text}`;
+ `https://wa.me/+918200702196?text=${text}`;
 }
 
 function msg(t){document.getElementById("msg").innerText=t}
